@@ -1,0 +1,17 @@
+$(document).ready(function(){
+    $("#icon1").click(function(){
+      $('.img-icon-3').removeClass('current');
+      $('.img-icon-2').removeClass('current');
+      $('.img-icon-1').addClass('current')
+    });
+    $("#icon2").click(function(){
+      $('.img-icon-1').removeClass('current');
+      $('.img-icon-3').removeClass('current');
+      $('.img-icon-2').addClass('current');
+    });
+    $("#icon3").click(function(){
+      $('.img-icon-1').removeClass('current');
+      $('.img-icon-2').removeClass('current');
+      $('.img-icon-3').addClass('current');
+    });
+});
